@@ -1,0 +1,132 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(238, 217, 100);
+    justify-content: space-between;
+    z-index: 100;
+}
+
+header .logo{
+    padding: 10px 10px;
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+header nav{
+    display: flex;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 15px;
+    top: 0;
+
+}
+
+.pedirYa{
+    margin: 30px;
+    background-color: rgba(128, 128, 128, 0.377);
+    border-radius: 20px;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+@media  screen and (min-width:480px){
+    
+}
+.pedirYa button{
+    background-color: rgb(255, 217, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    height: 40%;
+    font-size: 50px;
+    box-shadow: 100px black;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.pedirYa button:hover{
+    background-color: rgb(238, 203, 5);
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    margin: 10px;
+}
+
+header a:hover{
+    color: orange;
+}
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/3061466.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carta{
+    background-color: rgba(128, 128, 128, 0.377);
+    display: flexbox;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.carta h2{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+footer{
+    background-color: rgba(221, 221, 219, 0.3);
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.Carbonara{
+    margin: 2%;
+    display: flexbox;
+    text-align: center;
+}
+
+.Carbonara img{
+    width: 20%;
+}
+
+.Frankfurt{
+    margin: 2%;
+    display: flexbox;
+    text-align: center;
+}
+
+.Frankfurt img{
+    width: 20%;
+}
+
+.Quesos{
+    margin: 2%;
+    padding-bottom: 1%;
+    display: flexbox;
+    text-align: center;
+}
+
+.Quesos img{
+    width: 20%;
+}

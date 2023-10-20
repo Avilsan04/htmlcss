@@ -1,0 +1,109 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background-color: rgba(240, 188, 188, 0.37);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.logo{
+    width: 10%;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+aside{
+    position: absolute;
+    top: 10%;
+
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside ul{
+    list-style-type: none;
+    align-items: start;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10%;
+
+}
+.card img{
+    width: 100%;
+}
+
+.card {
+    flex: calc(50% - 10px);
+    margin-bottom: 20px;
+    margin-right: 1%;
+}
+
+.discount{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.582);
+    border-radius: 10%;
+}
+.mail{
+    justify-content: center;
+}
+.payMethods ul{
+    align-items: start;
+    flex-direction: column;
+    display: flex;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 692px){
+    header {
+        flex-direction: column;
+        text-align: center;
+        height: 25%;
+    }
+    .logo{
+        padding: 5%;
+        width: 25%;
+    }
+    aside{
+        position: relative;
+        top: 10%;
+    }
+}
+@media screen and (max-width: 597px){
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 425px){
+    .products {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        flex: 100%;
+    }
+}
+
